@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		0470AE3924A9783500D90937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470AE3824A9783500D90937 /* AppDelegate.swift */; };
 		0470AE3B24A9783500D90937 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470AE3A24A9783500D90937 /* SceneDelegate.swift */; };
-		0470AE3D24A9783500D90937 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470AE3C24A9783500D90937 /* ViewController.swift */; };
+		0470AE3D24A9783500D90937 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470AE3C24A9783500D90937 /* BlueViewController.swift */; };
 		0470AE4024A9783500D90937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0470AE3E24A9783500D90937 /* Main.storyboard */; };
 		0470AE4224A9783600D90937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0470AE4124A9783600D90937 /* Assets.xcassets */; };
 		0470AE4524A9783600D90937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0470AE4324A9783600D90937 /* LaunchScreen.storyboard */; };
+		0470AE4D24A9793800D90937 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470AE4C24A9793800D90937 /* RedViewController.swift */; };
+		0470AE4F24A97F7800D90937 /* Ghost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470AE4E24A97F7800D90937 /* Ghost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0470AE3524A9783500D90937 /* RetainCycles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetainCycles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0470AE3824A9783500D90937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0470AE3A24A9783500D90937 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0470AE3C24A9783500D90937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0470AE3C24A9783500D90937 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		0470AE3F24A9783500D90937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0470AE4124A9783600D90937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0470AE4424A9783600D90937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0470AE4624A9783600D90937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0470AE4C24A9793800D90937 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		0470AE4E24A97F7800D90937 /* Ghost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				0470AE3824A9783500D90937 /* AppDelegate.swift */,
 				0470AE3A24A9783500D90937 /* SceneDelegate.swift */,
-				0470AE3C24A9783500D90937 /* ViewController.swift */,
+				0470AE3C24A9783500D90937 /* BlueViewController.swift */,
+				0470AE4C24A9793800D90937 /* RedViewController.swift */,
+				0470AE4E24A97F7800D90937 /* Ghost.swift */,
 				0470AE3E24A9783500D90937 /* Main.storyboard */,
 				0470AE4124A9783600D90937 /* Assets.xcassets */,
 				0470AE4324A9783600D90937 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0470AE3D24A9783500D90937 /* ViewController.swift in Sources */,
+				0470AE4D24A9793800D90937 /* RedViewController.swift in Sources */,
+				0470AE3D24A9783500D90937 /* BlueViewController.swift in Sources */,
+				0470AE4F24A97F7800D90937 /* Ghost.swift in Sources */,
 				0470AE3924A9783500D90937 /* AppDelegate.swift in Sources */,
 				0470AE3B24A9783500D90937 /* SceneDelegate.swift in Sources */,
 			);
