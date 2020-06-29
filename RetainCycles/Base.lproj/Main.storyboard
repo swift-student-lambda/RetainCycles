@@ -15,9 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU1-dE-wnv">
-                                <rect key="frame" x="134" y="387" width="146" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU1-dE-wnv">
+                                <rect key="frame" x="137.5" y="433" width="139" height="30"/>
                                 <state key="normal" title="Go To The Red View">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -27,6 +26,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XU1-dE-wnv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DpT-e1-HQp"/>
+                            <constraint firstItem="XU1-dE-wnv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YH7-QK-i2J"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="zjo-va-zZx"/>
@@ -43,12 +46,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="baA-nS-IfL">
-                                <rect key="frame" x="184" y="433" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="baA-nS-IfL">
+                                <rect key="frame" x="182.5" y="432.5" width="51" height="31"/>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="baA-nS-IfL" firstAttribute="centerY" secondItem="mIK-kH-TNZ" secondAttribute="centerY" id="Zi7-KF-YbD"/>
+                            <constraint firstItem="baA-nS-IfL" firstAttribute="centerX" secondItem="mIK-kH-TNZ" secondAttribute="centerX" id="owM-Q4-MKW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1bz-3X-Upt"/>
                     </view>
                     <navigationItem key="navigationItem" id="7Rs-K0-z8m"/>

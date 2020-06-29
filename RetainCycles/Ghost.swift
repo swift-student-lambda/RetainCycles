@@ -13,16 +13,15 @@ protocol GhostDelegate {
 }
 
 class Ghost {
+   
     var switchTimer: Timer?
     var delegate: GhostDelegate?
+    var id = UUID()
     
     init() {
-       switchSomething(timer: nil)
-    }
-    
-    func switchSomething(timer: Timer?) {
-        delegate?.didSwitchSomething()
-        self.switchTimer?.invalidate()
-        self.switchTimer = Timer.scheduledTimer(withTimeInterval: Double.random(in: 1...6), repeats: false, block: switchSomething(timer:))
+        switchTimer = Timer.scheduledTimer(withTimeInterval: 3.0, repeats: true, block: { _ in
+            print("Ghost is switching")
+            self.delegate?.didSwitchSomething()
+        })
     }
 }
