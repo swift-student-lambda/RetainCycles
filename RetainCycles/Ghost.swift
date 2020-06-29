@@ -20,7 +20,6 @@ class Ghost {
     
     init() {
         switchTimer = Timer.scheduledTimer(withTimeInterval: 3.0, repeats: true, block: { _ in
-            print("Ghost is switching")
             self.delegate?.didSwitchSomething()
         })
     }
