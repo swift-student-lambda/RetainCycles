@@ -16,12 +16,12 @@ class RedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ghost.delegate = self
+//        ghost.delegate = self
     }
 }
 
-extension RedViewController: GhostDelegate {
-    func didSwitchSomething() {
-        theSwitch.setOn(!theSwitch.isOn, animated: true)
-    }
-}
+//extension RedViewController: GhostDelegate {
+//    func didSwitchSomething() {
+//        theSwitch.setOn(!theSwitch.isOn, animated: true)
+//    }
+//}
