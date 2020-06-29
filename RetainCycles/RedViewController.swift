@@ -10,7 +10,7 @@ import UIKit
 
 class RedViewController: UIViewController {
     
-    let ghost = Ghost()
+//    let ghost = Ghost()
     
     @IBOutlet weak var theSwitch: UISwitch!
     
